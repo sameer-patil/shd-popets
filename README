@@ -1,0 +1,15 @@
+This artifact is a set of files accompanying the paper "A Multi-Region 
+Investigation of the Perceptions and Use of Smart Home Devices" by Patrick 
+Bombik, Tom Wenzel, Jens Grossklags, and Sameer Patil published in the 
+Proceedings on Privacy Enhancing Technologies (PoPETS).
+
+The set contains the following files:
+- README: This file.
+- shd_responses_data.csv: The data in CSV format containing the valid 
+responses to the questionnaire used in the research and provided in the 
+Appendix of the paper.
+- shd_responses_codebook.pdf: A codebook for the data that includes a list 
+of all variables along with the corresponding questions from the 
+questionnaire and the values for the possible answer choices.
+- shd_responses_analysis.R: The R script used to process and analyze the 
+data to generate the results reported in the paper.
