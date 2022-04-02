@@ -320,6 +320,13 @@ cor.test(shd_responses$regulation_thirdpartyprocessing, shd_responses$devicerisk
 p <- c(0.0004338, 0.0006497, 0.0008436, 0.0006966)
 round(p.adjust(p, "bonferroni"), 4)
 
+# For overall perceived privacy risk, separately for each of the three most-owned devices
+cor.test(shd_responses$rpthirdparty, shd_responses$devicerisk_tv)
+cor.test(shd_responses$rpthirdparty, shd_responses$devicerisk_speaker)
+cor.test(shd_responses$rpthirdparty, shd_responses$devicerisk_lightbulb)
+p <- c(0.0001196, 0.001193, 0.06201)
+round(p.adjust(p, "bonferroni"), 4)
+
 # For unwanted access by third parties, separately for each of the three most-owned devices
 cor.test(shd_responses$regulation_thirdpartyaccess, shd_responses$devicerisk_tv)
 cor.test(shd_responses$regulation_thirdpartyaccess, shd_responses$devicerisk_speaker)
