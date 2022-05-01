@@ -34,9 +34,24 @@
 # The codebook for the data that includes a list of all variables along with the corresponding questions
 # from the  questionnaire and the values for the possible answer choices is shd_responses_codebook.pdf.
 
+
+# Running the shd_responses_analysis.R file requires the following:
+# 1. A working installation of the R language that can be invoked from the command line. 
+#    Installation files and instructions for R can be obtained from: https://www.r-project.org/ 
+#    Alternatively, the script can be run within any IDE that supports R, such as RStudio (https://www.rstudio.com/)
+# 2. R packages: i. dplyr; ii. doBy; iii. FSA; iv. formattable. 
+#    If not already installed, the packages can be installed from the command line with the command 
+#    install.packages('packagename') where packagename is the name of the package to be installed. 
+#    Alternatively, the packages can be installed with the appropriate menu selections from the 
+#    Graphical User Interface (GUI) of an IDE, such as Studio.
+# 3. Specifying the local file path for the data file (i.e., shd_responses_data.csv) by replacing 
+#     "/PATH/TO/" in the command read.csv("/PATH/TO/shd_responses_data.csv") 
+#     with the local path to the data file.
+
+
 # This script can be run from the command line if R is installed on the machine. 
 # Installation files and instructions for R can be obtained from: https://www.r-project.org/
-# This script can also be run within any IDE that supports R, such as RStudio (https://www.rstudio.com/)
+# Alternatively, this script can be run within any IDE that supports R, such as RStudio (https://www.rstudio.com/)
 
 
 ##### Load required libraries ----
